@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.car-cards{
+    width: 307px;
+    height: 500px;
+    padding: 48px;
+    
+}
+
+.section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.car{
+    width: 920px;
+    height: 500px;
+    border-radius: 8px;
+    display: flex;
+    
+    background-color: #E28625;
+}
+
+.car-cards_2{
+    background-color: #006971;
+    width: 307px;
+    height: 500px;
+    padding: 48px;
+}
+
+.car-cards_3{
+    width: 307px;
+    height: 500px;
+    border-radius: 0px 8px 8px 0px;
+    background-color: #004140;
+    padding: 48px;
+}
+
+.car-name{
+    color: #F2F2F2;
+    font-family: "Big Shoulders Display";
+    margin-top: 35px;
+}
+
+.car-name_2{
+    color: #F2F2F2;
+    font-family: "Big Shoulders Display";
+    margin-top: 35px;
+}
+
+.car-name_3{
+    color: #F2F2F2;
+    font-family: "Big Shoulders Display";
+    margin-top: 35px;
+}
+
+.car-information{
+    
+    color: #FFF;
+    font-family: "Lexend Deca";
+    margin-top: 25px;
+    font-weight: 400;
+    line-height: 25px;
+    opacity: 0.75;
+}
+
+.car-information_2{
+    
+    color: #FFF;
+    font-family: "Lexend Deca";
+    margin-top: 25px;
+    font-weight: 400;
+    line-height: 25px;
+    opacity: 0.75;
+
+}
+
+.car-information_3{
+    color: #FFF;
+    font-family: "Lexend Deca";
+    margin-top: 25px;
+    font-weight: 400;
+    line-height: 25px;
+    opacity: 0.75;
+}
+
+.button_1{
+    color: #E28625;
+    font-family: "Lexend Deca";
+    font-weight: 400;
+    line-height: 25px;
+    margin-top: 83px;
+    background-color: #F2F2F2;
+    width: 146px;
+    height: 48px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25xp;
+    text-decoration: none;
+    border-radius: 28px;
+    font-size: 16px;
+}
+
+.button_2{
+    color: #006971;
+    font-family: "Lexend Deca";
+    font-weight: 400;
+    line-height: 25px;
+    margin-top: 83px;
+    background-color: #F2F2F2;
+    width: 146px;
+    height: 48px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25xp;
+    text-decoration: none;
+    border-radius: 28px;
+    font-size: 16px;
+}
+
+.button_3{
+    color: #004140;
+    font-family: "Lexend Deca";
+    font-weight: 400;
+    line-height: 25px;
+    margin-top: 83px;
+    background-color: #F2F2F2;
+    width: 146px;
+    height: 48px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25xp;
+    text-decoration: none;
+    border-radius: 28px;
+    font-size: 16px;
+}
+
+
+
+
+
+
