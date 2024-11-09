@@ -1,296 +1,297 @@
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-ul{
-    list-style: none;
+:root {
+    --Dark-Purple: #24053E;
+    --Eucaplyptus: #44FFA1;
+    --Davys-Grey: #584D62;
+    --Ghost-White: #FCF8FF;
+    --White: #FFFFFF;
 }
 
-.section{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(156, 154, 154);
-}
-
-.car{
-    width: 736px;
-    height: 512px;
-    display: flex;
+.btn {
+    max-width: 161px;
+    max-height: 61px;
+    width: 100%;  
+    background-color: var(--Eucaplyptus);
+    display: block;
+    padding-top: 13px;
+    padding-bottom: 16px;
+    text-align: center;
+    color: var(--Dark-Purple);
+    transition: 0.4s;
     
-    border-radius: 42px 32px 32px 42px;
-    background: #fff;
-    box-shadow: 0px 30px 60px 0px rgba(61, 108, 236, 0.15);
 }
 
-.test-score{
-    display: flex;
-    flex-direction: column;
-    width: 368px;
-    height: 512px;
-    border-radius: 32px;
-    background: var(--Gradient-1, linear-gradient(180deg, #75F 0%, #6943FF 0.01%, #2F2CE9 100%));
+.btn:hover {
+    background-color: var(--Dark-Purple);
+    color: var(--Eucaplyptus);
+    border: 2px solid var(--Eucaplyptus);
+    cursor: pointer;
     
-    color: aqua;
-    align-items: center;
-    padding-top: 38px;
-    padding-bottom: 55px;
-}
-.Summary-card{
-    
-    display: flex;
-    width: 368px;
-    height: 512px;
-    flex-direction: column; 
-    padding: 38px 0px 0px 0px ;
-    border-radius: 32px;    
 }
 
-
-
-.d{
-    display: flex;
-    align-items: center;
-    padding-left: 16px;
-    column-gap: 12px;
-    color: var(--Red, #F55);
-    font-feature-settings: 'liga' off, 'clig' off;
-
-    /* Body */
-    font-family: "Hanken Grotesk";
+.btn::before {
+    background-color: #FFF;
+    color: var(--Dark-Purple, #24053E);
+    text-align: center;
+    font-family: Manrope;
     font-size: 18px;
     font-style: normal;
-    font-weight: 500;
-    line-height: normal;
+    font-weight: 700;
+    line-height: 32px; /* 177.778% */
+    letter-spacing: -0.18px;
 }
 
-.s{
-    display: flex;
-    align-items: center;
-    padding-right: 16px;
-    column-gap: 8px;
+body {
+    background-color: rgb(181, 181, 181);
 }
 
-.score{
-    display: flex;
-    width: 288px;
-    height: 56px;
-    justify-content: space-between;
-    
-    border-radius: 12px;
-    background: var(--red-95-white, linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #F55);
-}
-
-.Summary-score{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 28px;
-    row-gap: 16px;
-    box-shadow: 0px 30px 60px 0px rgba(61, 108, 236, 0.15);
-    
-}
-
-.btn:hover{
-    border-radius: 128px;
-    background: var(--Dark-Navy, #303B59);
-    cursor: grabbing;
-}
-
-.Summary-name{
-   
-    padding-left: 42px;
-    justify-content: space-between;
-}
-
-.btn{
-    margin-top: 41px;
+.section {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 288px;
-    height: 56px;
-    border-radius: 128px;
-    background: var(--Gradient-1, linear-gradient(180deg, #75F 0%, #6943FF 0.01%, #2F2CE9 100%));
-    cursor: grab;
+    margin-top: 230px;  
+}
+/* WORKIT */
+.workit-card { 
+    width: 1440px;
+    height: 2494px;
+    background-color: var(--White);   
+}
+
+
+.workit_text{
+    transition: 0.4s;
     color: var(--White, #FFF);
-    text-align: right;
-    font-feature-settings: 'liga' off, 'clig' off;  
-    font-family: "Hanken Grotesk";
+    font-family: Manrope;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;
+    line-height: 32px; /* 177.778% */
+    letter-spacing: -0.18px;
 }
 
-.d2{
+.workit_text:hover {
+    color: var(--Eucaplyptus);
+    cursor: pointer;
+}
+
+.workit{
+    height: 730px;
+    background-color: var(--Dark-Purple);
+}
+
+.iphone {
     display: flex;
-    align-items: center;
-    padding-left: 16px;
-    column-gap: 12px;
-    color: var(--Yellow, #FFB21E);
-    font-feature-settings: 'liga' off, 'clig' off;
-
-    /* Body */
-    font-family: "Hanken Grotesk";
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
+    flex-direction: column;
+    margin-left: 25%;
+    padding-top: 4.2%;
+    
+    
 }
-.d3{
+
+.iphone_1 {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    padding-left: 16px;
-    column-gap: 12px;
-    color: var(--Green, #00BB8F);
-    font-feature-settings: 'liga' off, 'clig' off;
-
-    /* Body */
-    font-family: "Hanken Grotesk";
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
+    margin-left: 25%;
 }
-.d4{
+
+.workit-apply {
     display: flex;
+    justify-content: space-between;
+}
+
+.data_text {
+    width: 635px;
+    color: var(--White);
+    
+    font-family: "Fraunces 144pt";
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 80px; 
+}
+
+.workit_text {
+    color: var(--White, #FFF);
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 177.778% */
+    letter-spacing: -0.18px;
+    padding: 56px 165px 0px 0px;
+}
+
+.workit_img {
+    width: 95.762px;
+    height: 24.608px;
+    flex-shrink: 0;
+    margin-top: 57px;
+    margin-left: 165px;
+}
+
+.Data-btn {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    padding-left: 16px;
-    column-gap: 12px;
-    color: var(--Blue, #1125D6);
-    font-feature-settings: 'liga' off, 'clig' off;
+    margin-top: 63px;
 
-    /* Body */
-    font-family: "Hanken Grotesk";
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-}
-.Summary-name{
-    color: var(--Dark-Navy, #303B59);
-    font-feature-settings: 'liga' off, 'clig' off;
-
-    /* Heading M */
-    font-family: "Hanken Grotesk";
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-.React-ball{
-    color: var(--Dark-Navy, #303B59);
-    text-align: right;
-    font-feature-settings: 'liga' off, 'clig' off;
-
-    /* Body (Bold) */
-    font-family: "Hanken Grotesk";
+    color: var(--Dark-Purple, #24053E);
+    text-align: center;
+    font-family: "Manrope";
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;
-}
-.React-bal{
-    color: var(--Dark-Navy, #737882);
-    text-align: right;
-    font-feature-settings: 'liga' off, 'clig' off;
-
-    /* Body (Bold) */
-    font-family: "Hanken Grotesk";
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+    line-height: 32px; /* 177.778% */
+    letter-spacing: -0.18px;
 }
 
-.img{
-    width: 200px;
-    height: 200px;
+.data-btn {
+    margin-top: 37px;
+}
+/* WORKIT */
+
+
+/* CONCEPTS */
+.concepts {
+    display: flex;
+    width: 1114px;
+    height: 308px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 230px;
+    margin-left: 165px;
+    text-align: center; 
+      
+}
+
+.concepts-number {
+    width: 56px;
+    height: 56px;
     border-radius: 50%;
-    background: var(--Gradient-2, linear-gradient(180deg, #4D21C9 0%, rgba(37, 33, 201, 0.00) 100%, rgba(37, 33, 201, 0.00) 100%));;
+    border: 2px solid var(--Davys-Grey);
+    color: var(--Dark-Purple,);
+    text-align: center;
+    font-family: "Fraunces 144pt";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    margin-left: 149px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 35px;
 }
 
-.test-ball{
-    color: var(--White, #FFF);
+.concepts-name {
+    width: 354px;
+    color: var(--Dark-Purple, #24053E);
     text-align: center;
-    font-feature-settings: 'liga' off, 'clig' off;
-
-    /* Heading XL */
-    font-family: "Hanken Grotesk";
-    font-size: 72px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 72px; /* 100% */
-}
-
-.of{
-    color: var(--Light-Blue, #CAC9FF);
-    font-feature-settings: 'liga' off, 'clig' off;
-
-    /* Body (Bold) */
-    font-family: "Hanken Grotesk";
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-
-.test-name{
-    color: var(--Light-Blue, #CAC9FF);
-    font-feature-settings: 'liga' off, 'clig' off;
-
-    /* Heading M */
-    font-family: "Hanken Grotesk";
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-
-.test-reksia{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 28px;
-}
-.Great{
-    color: var(--White, #FFF);
-    text-align: center;
-    font-feature-settings: 'liga' off, 'clig' off;
-    
-    /* Heading L */
-    font-family: "Hanken Grotesk";
+    font-family: "Fraunces 144pt";
     font-size: 32px;
     font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+    font-weight: 600;
+    line-height: 40px; 
+    margin-top: 56px;
 }
 
-.reksia{
-    width: 260px;
-    color: var(--Light-Blue, #CAC9FF);
+.concepts-text {
+    width: 354px;
+    color: var(--Dark-Purple, #24053E);
     text-align: center;
     font-feature-settings: 'liga' off, 'clig' off;
-    margin-top: 28px;
-    /* Body */
-    font-family: "Hanken Grotesk";
+    font-family: Manrope;
     font-size: 18px;
     font-style: normal;
-    font-weight: 500;
-    line-height: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 19px;
 }
+
+
+/* CONCEPTS */
+
+
+/* FOUNDER */
+.founder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 281px;
+}
+
+
+
+.about-founder {
+    width: 730px;
+    height: 413px;
+    background-color: var(--Dark-Purple);
+    padding: 64px;
+    
+    overflow: hidden;
+    margin-left: -73px;
+    margin-top: 250px;
+}
+
+
+
+.first {
+    color: var(--White);
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: "Fraunces 144pt";
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px; 
+    
+}
+
+.contact {
+    width: 602px;
+    color: var(--White, #FFF);
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: "Manrope";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; 
+    margin-top: 32px;
+    
+}
+
+.founder-img {
+    width: 477px;
+    height: 477px;
+    border-radius: 50%;
+    background-color: var(--Eucaplyptus);
+}
+
+.apply-btn {
+    margin-top: 32px;
+}
+/* FOUNDER */
+
+.mini-block {
+    display: flex;
+    flex-direction: column;
+    width: 116px;
+    height: 102.224px;
+    flex-shrink: 0;
+    padding-bottom: 110px;
+    margin: 0 auto;
+    padding-top: 121px;
+    
+}
+
