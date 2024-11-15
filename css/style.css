@@ -17,14 +17,16 @@ body {
 }
 /* 1 */
 .server {
-    width: 1600px;
+    max-width: 1600px;
+    width: 100%;
     height: 2609px;
     background: #151515;
     margin-top: 2.7%;
 }
 
 .boulevard {
-    width: 1600px;
+    max-width: 1600px;
+    width: 100%;
     height: 65px;
     flex-shrink: 0;
     display: flex;
@@ -92,7 +94,8 @@ body {
 
 
 .airpods {
-    width: 1600px;
+    max-width: 1600px;
+    width: 100%;
     height: 700px;
     flex-shrink: 0;
     background-image: url(../img/Header.png);
@@ -135,3 +138,120 @@ body {
     line-height: normal;
     text-transform: uppercase;
 }
+/*  */
+
+/* about-airpots */
+.about-airpots {
+    position: relative;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 50px;
+}
+
+.info1 {
+    display: flex;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-text1{
+    max-width: 538px;
+    width: 100%;
+    font-family: "Montserrat";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: rgba(255, 255, 255, 1);
+}
+
+.info-img1 {
+    width: 552px;
+    height: 335px;
+    margin-top: 57px;
+}
+
+.info-text{
+    max-width: 540px;
+    width: 100%;
+    height: 107px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: "Montserrat";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; 
+}
+
+.info-img {
+    width: 562px;
+    height: 408px;
+    flex-shrink: 0;
+    margin-right: 63px;
+}
+
+.airpots-function {
+    display: flex;
+    margin-top: 50px;
+}
+
+.function-text {
+    width: 333px;
+    color: #FFF;
+    text-align: right;
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 145px;
+    margin-right: 13px;
+}
+
+.function-text1 {
+    width: 333px;
+    color: #FFF;
+    text-align: right;
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 145px;
+    text-align: left;
+    margin-left: 11px;
+}
+.ch{
+    width: 61px;
+    flex-shrink: 0;
+    background-color: 4px solid #fff;
+}
+
+.ch::after {
+    content: "";
+    display: block;
+    width: 61px;
+    height: 1px;
+    flex-shrink: 0;
+    background-color: #FFF;
+    margin-top: 207.2px;
+    
+}
+
+.function-img {
+    width: 268px;
+    height: 375px;
+    margin-left: 14px;
+}
+/* about-airpots */
