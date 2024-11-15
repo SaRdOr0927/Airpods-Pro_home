@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+ul {
+    list-style: none;
+}
+
 a {
     text-decoration: none;
 }
@@ -255,3 +259,66 @@ body {
     margin-left: 14px;
 }
 /* about-airpots */
+
+/* iphone */
+.iphone-cards {
+    display: flex;
+    column-gap: 30px;
+    margin-top: 79px;
+}
+
+.iphone-card {
+    width: 255px;
+    height: 312px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    gap: 10px;
+}
+
+.iphone-name {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.iphone-purchase {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.view{
+    display: flex;
+    flex-direction: column;
+    width: 161px;
+    height: 34px;
+    background: #151515;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.view:hover {
+    cursor: pointer;
+}
+
+/* iphone */
