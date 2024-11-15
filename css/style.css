@@ -38,7 +38,7 @@ body {
 
 }
 
-.kirish {
+.nav-menu {
     display: flex;
     align-items: center;
     column-gap: 30px;
