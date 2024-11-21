@@ -1,365 +1,339 @@
-* {
+@import url(./fonts.css);
+
+/* custom props */
+:root {
+    --Dark-Blue: #172339;
+    --Grey: #49566D;
+    --Cream:  #F3EDE7;
+    --Cream-White:  #FAF8F6;
+    --White:  #fff;
+}
+
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-ul {
-    list-style: none;
-}
-
-a {
+a{
     text-decoration: none;
 }
+
+ul{
+    list-style: none;
+}
+/* custom props */
 
 body {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    background: rgba(181, 181, 181, 0.823);
-}
-/* 1 */
-.server {
-    max-width: 1600px;
-    width: 100%;
-    height: 2609px;
-    background: #151515;
+    background-color: #838383;
+    z-index: -1;
 }
 
-.boulevard {
-    max-width: 1600px;
-    width: 100%;
-    height: 65px;
-    flex-shrink: 0;
+.site-head { 
+    max-width: 1440px;
+    width:  100%;
+    height: 1716px;
+    background-color: var(--White);
+
+}
+
+.container{
+    padding-top: 50px;
+    padding-left: 167px;
+    padding-right: 164px;
+    padding-bottom: 72px;
+}
+
+/* suite-menu */
+.suite-menu {
     display: flex;
-    column-gap: 20px;
-    align-items: center;
     justify-content: space-between;
-    background: #282828;
-    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
-    padding-left: 245px;
-    padding-right: 247px;
-
-}
-
-.nav-menu {
-    display: flex;
     align-items: center;
-    column-gap: 30px;
-    
 }
 
-.imac {
-    color: #FFF;
-    text-align: right;
-    font-family: Montserrat;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+.suite-img{
+    width: 78.414px;
+    height: 24.8px;
+    color: var(--White);
 }
 
-.ipad {
-    color: #FFF;
-    text-align: right;
-    font-family: Montserrat;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-
-.iphone {
-    color: #FFF;
-    text-align: right;
-    font-family: Montserrat;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-
-.bou-img {
-    width: 100px;
-    height: 53px;
-    
-}
-
-.search {
-    margin-right: 25px;
-    width: 20px;
-    height: 20px;
-    flex-shrink: 0;
-    fill: #FFF;
-}
-/* 1 */
-
-
-.airpods {
-    max-width: 1600px;
-    width: 100%;
-    height: 700px;
-    flex-shrink: 0;
-    background-image: url(../img/Header.png);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    row-gap: 38px;
-}
-
-.airpods-name {
-    color: #FFF;
-    font-family: "Prosto One";
-    font-size: 100px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 75px; 
-}
-
-.btn {
-    width: 200px;
-    height: 50px;
-    flex-shrink: 0;
-    border-radius: 10px;
-    background: #FFF;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    column-gap: 11px;
-}
-
-.airpods-btn {
-    width: 145px;
-    color: #171718;
-    font-family: Montserrat;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    text-transform: uppercase;
-}
-/*  */
-
-/* about-airpots */
-.about-airpots {
-    position: relative;
-}
-
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    margin-top: 50px;
-}
-
-.info1 {
-    display: flex;
-}
-
-.info {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.info-text1{
-    max-width: 538px;
-    width: 100%;
-    font-family: "Montserrat";
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    color: rgba(255, 255, 255, 1);
-}
-
-.info-img1 {
-    width: 552px;
-    height: 335px;
-    margin-top: 57px;
-}
-
-.info-text{
-    max-width: 540px;
-    width: 100%;
-    height: 107px;
-    flex-shrink: 0;
-    color: #FFF;
-    font-family: "Montserrat";
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal; 
-}
-
-.info-img {
-    width: 562px;
-    height: 408px;
-    flex-shrink: 0;
-    margin-right: 63px;
-}
-
-.airpots-function {
-    display: flex;
-    margin-top: 50px;
-}
-
-.function-text {
-    width: 333px;
-    color: #FFF;
-    text-align: right;
-    font-family: "Montserrat";
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    margin-top: 145px;
-    margin-right: 13px;
-}
-
-.function-text1 {
-    width: 333px;
-    color: #FFF;
-    text-align: right;
-    font-family: "Montserrat";
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    margin-top: 145px;
-    text-align: left;
-    margin-left: 11px;
-}
-.ch{
-    width: 61px;
-    flex-shrink: 0;
-    background-color: 4px solid #fff;
-}
-
-.ch::after {
-    content: "";
-    display: block;
-    width: 61px;
-    height: 1px;
-    flex-shrink: 0;
-    background-color: #FFF;
-    margin-top: 207.2px;
-    
-}
-
-.function-img {
-    width: 268px;
-    height: 375px;
-    margin-left: 14px;
-}
-/* about-airpots */
-
-/* iphone */
-.iphone-cards {
-    display: flex;
-    column-gap: 30px;
-    margin-top: 79px;
-}
-
-.iphone-card {
-    width: 255px;
-    height: 312px;
-    flex-shrink: 0;
-    border-radius: 6px;
-    background: #FFF;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    gap: 10px;
-}
-
-.iphone-name {
-    color: #000;
-    font-family: Montserrat;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-
-.iphone-purchase {
-    color: #000;
-    font-family: Montserrat;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-transform: uppercase;
-}
-
-.view{
-    display: flex;
-    flex-direction: column;
-    width: 161px;
-    height: 34px;
-    background: #151515;
-    align-items: center;
-    justify-content: center;
-    color: #FFF;
-    font-family: Montserrat;
+.beta-access {
+    color: var(--Dark-Blue);
+    font-family: Epilogue;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;
-    text-transform: uppercase;
+    line-height: 32px; /* 200% */
+    letter-spacing: -0.16px; 
+    display: block;
+    background-color: var(--White);
+    width: 219px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    border-radius: 6px;
+    border: 1px solid var(--Dark-Blue);
+    transition: 0.5s;
 }
 
-.view:hover {
-    cursor: pointer;
-}
-
-/* iphone */
-
-
-
-/* payment */
-
-.payment {
-    display: flex;
-    max-width: 1600px;
-    height: 215px;
-    background: #282828;
-    box-shadow: 0px -4px 20px 0px rgba(0, 0, 0, 0.25);
-    align-items: center;
-    margin-top: 55px;
-    justify-content: space-around;
-}
-.choose {
-    display: flex;
-    align-items: center;
-    column-gap: 30px;
-}
-
-.payment-choose {
-    color: #FFF;
-    text-align: right;
-    font-family: Montserrat;
-    font-size: 20px;
+.beta-access:hover {
+    color: var(--Cream-White, #FAF8F6);
+    font-family: Epilogue;
+    font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;
+    line-height: 32px; 
+    letter-spacing: -0.16px;
+    border-radius: 6px;
+    border: 1px solid var(--Dark-Blue);
+    background: var(--Dark-Blue);
 }
 
-.payment-choice {
+/* suite-menu */
+
+/* business */
+.business {
     display: flex;
-    column-gap: 42px;
+    margin-top: 170px;
+    justify-content: space-between;
 }
 
-.payment-choice:hover{
-    cursor: pointer;
+.business-proposal {
+    width: 635px;
+    color: #172339;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: "Epilogue";
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 78px; 
+    letter-spacing: -1px;
 }
 
+.business-text {
+    width: 350px;
+    color: var(--Grey, #49566D);
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Epilogue;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 177.778% */
+    letter-spacing: 0.1px;
+    margin-top: 40px;
+    margin-bottom: 52px;
+}
 
-/* payment */
+.business-start {
+    font-family: Epilogue;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+    color: rgba(250, 248, 246, 1);
+    border-radius: 6px;
+    background: var(--Dark-Blue, #172339);
+    padding-top: 15px;
+    padding-bottom: 14px;
+    padding-left: 32px;
+    padding-right: 31px;
+    transition: 0.5s;
+}
+
+.business-start:hover {
+    background: linear-gradient(135deg, #A060FF 0%, #CB30E3 49.21%, #FFA84E 100%);
+    color: rgba(250, 248, 246, 1);  
+}
+
+.business-img {
+    width: 350px;
+    height: 600px;
+    border-radius: 15px;
+    background: radial-gradient(141.42% 141.42% at 100% 100%, #A060FF 0%, #CB30E3 33.18%, #FFA84E 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 1;
+    align-items: center;
+    margin-left: 474px;
+}
+
+.about-business {
+    position: absolute;
+    z-index: 2;
+}
+
+.business-users {
+    gap: 63px;
+    margin-left: 96px;
+}
+
+.business-users__number {
+    margin-top: 63px;
+}
+
+.companies {
+    width: 190px;
+    color: var(--Dark-Blue, #172339);
+    font-family: Epilogue;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px; /* 116.667% */
+    letter-spacing: -0.5px;
+}
+
+.companies-name {
+    color: var(--Grey, #49566D);
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Epilogue;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 2.5px;
+}
+
+.d {
+    display: flex;
+}
+/* business */
+
+
+/* course-founder */
+.course-founder{
+    display: flex;
+    width: 1109px;
+    height: 545px;
+    border-radius: 15px;
+    background: var(--Dark-Blue, #172339);
+    margin-top: 136px;
+}
+
+.founder-img {
+    width: 359.81px;
+    height: 589.557px;
+    margin-left: 121px;
+    margin-bottom: 70px;
+}
+
+.founding-opinion {
+    width: 350px;
+    height: 369px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 40px;
+    margin-top: 88px;  
+    margin-bottom: 88px;
+    margin-left: 152px;
+}
+
+.opinion {
+    color: #FAF8F6;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Epilogue;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px; /* 116.667% */
+    letter-spacing: -0.5px;
+}
+
+.opinion-text {
+    max-width: 359px;
+    width: 100%;
+    color: var(--Cream, #F3EDE7);
+    font-family: Epilogue;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px; /* 175% */
+    letter-spacing: 0.1px;
+}
+
+.founder-name {
+    color: var(--Cream-White, #FAF8F6);
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Epilogue;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 177.778% */
+    letter-spacing: -0.18px;
+}
+
+.founder-type {
+    width: 190px;
+    color: var(--Cream, #F3EDE7);
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Epilogue;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    letter-spacing: 2.5px;
+}
+
+/* course-founder */
+
+
+
+/* suite-exit */
+.suite-exit {
+    margin-top: 95px;
+    max-width: 1109px;
+    width: 100%;
+    height: 32px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.suite-name {
+    color: var(--Dark-Blue, #172339);
+    font-family: Epilogue;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; 
+    letter-spacing: -0.444px;
+}
+
+.suite-exit__text {
+    color: var(--Grey, #49566D);
+    text-align: center;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Epilogue;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 213.333% */
+    letter-spacing: 0.083px;
+}
+
+.ista {
+    display: flex;
+    column-gap: 10px;
+}
+
+.boglanish {
+    width: 20px;
+    height: 20px;
+}
+
+.boglanish:hover {
+    color: #49566D;
+    fill: var(--Grey);
+    opacity: 0.5;
+}
