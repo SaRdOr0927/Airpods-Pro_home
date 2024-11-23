@@ -1,17 +1,29 @@
 @font-face {
-    font-family: "Epilogue-Bold";
-    src: url(../fonts/Epilogue/static/Epilogue-Bold.ttf);
+    font-family: "Raleway";
+    src: url(../fonts/Raleway/static/Raleway-Bold.ttf);
     font-weight: 700;
 }
 
 @font-face {
-    font-family: "Epilogue-Regular";
-    src: url(../fonts/Epilogue/static/Epilogue-Regular.ttf);
+    font-family: "Raleway";
+    src: url(../fonts/Raleway/static/Raleway-Regular.ttf);
     font-weight: 400;
 }
 
 @font-face {
-    font-family: "Epilogue-SemiBold";
-    src: url(../fonts/Epilogue/static/Epilogue-SemiBold.ttf);
+    font-family: "Open Sans";
+    src: url(../fonts/Open_Sans/static/OpenSans_SemiCondensed-Bold.ttf);
     font-weight: 700;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url(../fonts/Open_Sans/static/OpenSans_Condensed-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Nunito Sans";
+    src: url(../fonts/Nunito_Sans/static/NunitoSans_7pt-Regular.ttf);
+    font-weight: 400;
 }

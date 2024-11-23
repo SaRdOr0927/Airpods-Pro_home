@@ -1,36 +1,36 @@
-Epilogue Variable Font
-======================
+Raleway Variable Font
+=====================
 
-This download contains Epilogue as both variable fonts and static fonts.
+This download contains Raleway as both variable fonts and static fonts.
 
-Epilogue is a variable font with this axis:
+Raleway is a variable font with this axis:
   wght
 
 This means all the styles are contained in these files:
-  Epilogue-VariableFont_wght.ttf
-  Epilogue-Italic-VariableFont_wght.ttf
+  Raleway/Raleway-VariableFont_wght.ttf
+  Raleway/Raleway-Italic-VariableFont_wght.ttf
 
 If your app fully supports variable fonts, you can now pick intermediate styles
 that aren’t available as static fonts. Not all apps support variable fonts, and
-in those cases you can use the static font files for Epilogue:
-  static/Epilogue-Thin.ttf
-  static/Epilogue-ExtraLight.ttf
-  static/Epilogue-Light.ttf
-  static/Epilogue-Regular.ttf
-  static/Epilogue-Medium.ttf
-  static/Epilogue-SemiBold.ttf
-  static/Epilogue-Bold.ttf
-  static/Epilogue-ExtraBold.ttf
-  static/Epilogue-Black.ttf
-  static/Epilogue-ThinItalic.ttf
-  static/Epilogue-ExtraLightItalic.ttf
-  static/Epilogue-LightItalic.ttf
-  static/Epilogue-Italic.ttf
-  static/Epilogue-MediumItalic.ttf
-  static/Epilogue-SemiBoldItalic.ttf
-  static/Epilogue-BoldItalic.ttf
-  static/Epilogue-ExtraBoldItalic.ttf
-  static/Epilogue-BlackItalic.ttf
+in those cases you can use the static font files for Raleway:
+  Raleway/static/Raleway-Thin.ttf
+  Raleway/static/Raleway-ExtraLight.ttf
+  Raleway/static/Raleway-Light.ttf
+  Raleway/static/Raleway-Regular.ttf
+  Raleway/static/Raleway-Medium.ttf
+  Raleway/static/Raleway-SemiBold.ttf
+  Raleway/static/Raleway-Bold.ttf
+  Raleway/static/Raleway-ExtraBold.ttf
+  Raleway/static/Raleway-Black.ttf
+  Raleway/static/Raleway-ThinItalic.ttf
+  Raleway/static/Raleway-ExtraLightItalic.ttf
+  Raleway/static/Raleway-LightItalic.ttf
+  Raleway/static/Raleway-Italic.ttf
+  Raleway/static/Raleway-MediumItalic.ttf
+  Raleway/static/Raleway-SemiBoldItalic.ttf
+  Raleway/static/Raleway-BoldItalic.ttf
+  Raleway/static/Raleway-ExtraBoldItalic.ttf
+  Raleway/static/Raleway-BlackItalic.ttf
 
 Get started
 -----------
