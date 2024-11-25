@@ -16,10 +16,13 @@
     body {
         background-color: #07043B;
     }
+
     
-            /* fylo */
+
+    
+    /* fylo */
     .site-nav {
-        width: 100%;
+        width: 375px;
         height: 24px;
         flex-shrink: 0;
     }
@@ -29,6 +32,8 @@
         height: 24px;
         flex-shrink: 0;
     }
+
+
 
     .fylo-menu {
         column-gap: 24px;
@@ -104,7 +109,7 @@
 
     /* stay */
     .stay {
-        width: 100%;
+        width: 375px;
         height: 800px;
         display: flex;
         flex-direction: column;
@@ -214,7 +219,7 @@
 
     /* support */
     .support {
-        width: 100%;
+        width: 375px;
         height: 345px;
 
         display: flex;
@@ -280,7 +285,7 @@
 
     /* for-communication */
     .for-communication {
-        width: 100%;
+        width: 375px;
         height: 600px;
         background: #07043B;
     }
