@@ -12,8 +12,10 @@
 @media(max-width: 736px){}
 @media(max-width: 598px){}
 @media(max-width: 576px){
+    
+
     .fylo {
-        width: 375px;
+        width: 100%;
         height: 2741px;
     }
             /* fylo */
