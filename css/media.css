@@ -1,0 +1,81 @@
+@media( max-width: 1080px ) {
+    .mobile{
+       flex-direction: column;
+       row-gap: 10px;
+    }
+    .site-desk {
+        width: 327px;
+        height: 289px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    } 
+    .mobile-hero {
+        flex-direction: column-reverse;
+
+    }
+    .site-headline {
+        max-width: 327px;
+        width: 100%;
+        color: #34313D;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 42px;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: -1.05px;
+        margin-top:  37px;
+    }
+    .site-text {
+        max-width: 327px;
+        width: 100%;
+        color: #9E9AA8;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: 0.123px;
+        margin-bottom: 32px;
+        margin-bottom: 15px;
+    }
+    .media-img {
+        width: 500px;
+        height: 400px;
+    }
+    .form {
+        width: 327px;
+        height: 160px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 16px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 88px;
+    }
+    .form-email {
+        width: 279px;
+        padding-top: 11px;
+        padding-bottom: 10px;
+        color: #34313D;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 36px; /* 225% */
+        letter-spacing: 0.12px;
+    }
+    .form-sumbit {
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        padding-top: 11px;
+        padding-bottom: 10px;
+        padding-left: 91px;
+        padding-right: 91px;
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 700;
+
+    }
+}
