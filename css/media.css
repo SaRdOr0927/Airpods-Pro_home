@@ -1,81 +1,82 @@
-@media( max-width: 576px ) {
-    .mobile{
-       flex-direction: column;
-       row-gap: 10px;
+@media only screen and (max-width: 576px){
+    .container {
+        margin: 0 auto;
     }
-    .site-desk {
-        width: 327px;
-        height: 289px;
-        display: flex;
+    
+    .order-now {
+        margin-top: 23px;
+    }
+    .order-btn {
+        padding: 11px 14px;
+    }
+    
+    .site-hero {
+        margin-top: 64px;
+    }
+    .mobile {
         flex-direction: column;
-        align-items: center;
-    } 
-    .mobile-hero {
-        flex-direction: column-reverse;
-
     }
     .site-headline {
         max-width: 327px;
-        width: 100%;
-        color: #34313D;
-        text-align: center;
-        font-family: Poppins;
-        font-size: 42px;
-        font-weight: 700;
+        font-size: 48px;
         line-height: 48px;
-        letter-spacing: -1.05px;
-        margin-top:  37px;
     }
     .site-text {
         max-width: 327px;
-        width: 100%;
-        color: #9E9AA8;
-        text-align: center;
-        font-family: Poppins;
-        font-size: 18px;
-        font-weight: 500;
-        line-height: 30px;
-        letter-spacing: 0.123px;
+        font-size: 16px;
+        margin-top: 32px;
         margin-bottom: 32px;
-        margin-bottom: 15px;
     }
-    .media-img {
-        width: 500px;
-        height: 400px;
+    .hero-btn {
+        padding: 11px 14px;
     }
-    .form {
-        width: 327px;
-        height: 160px;
-        display: flex;
+    .site-baner {
+        border-radius: 0px 0px 0px 0px;
+        padding-left: 35.30px;
+        width: 372px;
+        height: 331px;
+    }
+    .btn {
+        margin-bottom: 70px;
+    }
+
+
+    .bolak {
+        position: absolute;
+        z-index: -2;
+        padding-left: 10000px;
+    }
+    .key-img {
+        width: 129px;
+        height: 193px;
+        margin-right: 10px;
+    }
+    .key-imgg {
+
+        height: 193px;
+        border-radius: 12px;
+    }
+    .ali-mobil {
+        text-align: center;
+        row-gap: 64px;
+    }
+    .key-dflex {
         flex-direction: column;
-        row-gap: 16px;
+        text-align: center;
+    }
+    .mobile-span {
+        display: flex;
         align-items: center;
         justify-content: center;
-        margin-top: 88px;
     }
-    .form-email {
-        width: 279px;
-        padding-top: 11px;
-        padding-bottom: 10px;
-        color: #34313D;
-        font-family: Poppins;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 36px; /* 225% */
-        letter-spacing: 0.12px;
-    }
-    .form-sumbit {
-        border-radius: 5px;
+    .key-dflex {
         display: flex;
-        flex-direction: column;
-        padding-top: 11px;
-        padding-bottom: 10px;
-        padding-left: 91px;
-        padding-right: 91px;
-        font-family: Poppins;
-        font-size: 18px;
-        font-weight: 700;
-
+        align-items: center;
+        justify-content: center;
+    }
+    .kva {
+        position: absolute;
+        z-index: -2;
+        padding-left: 10000px;
     }
 }

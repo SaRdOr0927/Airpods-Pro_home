@@ -1,0 +1,236 @@
+@import url(./fonts.css);
+
+:root {
+    --f16: #F16718;
+    --ff: #FF9B62;
+    --b16: #162542;
+    --b17:  #7B8BAD;
+    --e8e:  #E8EFF2;
+    --white:  #fff;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1158px;
+    width: 100%;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin: 0 auto;
+}
+
+.order-now {
+    margin-top: 55px;
+}
+.d-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.order-img {
+    width: 40px;
+    height: 40px;
+}
+.order-btn {
+    color: var(--b16);
+    font-family: Barlow;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    background-color: var(--e8e);
+    padding: 16px 27px;
+    border-radius: 8px;
+    transition: .5s;
+}
+.order-btn:hover {
+    color: var(--e8e);
+    background-color: var(--b16);
+}
+
+/* site-hero */
+.site-hero {
+    margin-top: 83px;
+    display: flex;
+}
+.kva {
+   margin-bottom: 240px;
+   padding-left: 1399px;
+   position: absolute;
+}
+.site-headline {
+    max-width: 445px;
+    width: 100%;
+    color: var(--b16);
+    font-family: Barlow;
+    font-size: 56px;
+    font-weight: 900;
+    line-height: 56px; 
+    text-transform: uppercase;
+}
+.site-text {
+    max-width: 445px;
+    width: 100%;
+    color: var(--b17);
+    font-family: Barlow;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    margin-top: 24px;
+    margin-bottom: 40px;
+}
+.btn {
+    display: flex;
+    column-gap: 40px;
+    align-items: center;
+}
+.hero-btn {
+    color: var(--white);
+    font-family: Barlow;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px; 
+    text-transform: uppercase;
+    background-color: var(--f16);
+    padding: 16px 27px;
+    border-radius: 8px;
+    transition: .5s;
+}
+.hero-btn:hover {
+    background-color: var(--ff);
+}
+.btn-text {
+    color: #7B8BAD;
+    font-family: Barlow;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+.site-baner {
+    border-radius: 17px;
+}
+/* site-hero */
+
+
+ 
+/* site-build */
+.site-build {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 25px;
+}
+.key-dflex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.key-img {
+    width: 255px;
+    height: 480px;
+    border-radius: 20px;
+    background: rgba(241, 103, 24, 1);
+    margin-right: 25px;
+}
+.key-imgg {
+    width: 445px;
+    height: 480px; 
+    border-radius: 20px;
+    margin-right: 115px;
+}
+.build-key__info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 27px;
+}
+.key-name {
+    max-width: 255px;
+    width: 100%;
+    color: var(--b16);
+    font-family: Barlow;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+.key-text {
+    max-width: 255px;
+    width: 100%;
+    color: #7B8BAD;
+    font-family: Barlow;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+}
+.bolak {
+    padding-top: 242px;
+    position: absolute;
+}
+/* site-build */
+
+
+
+/* site-about */
+.site-about {
+    margin-top: 190px;
+
+}
+.about {
+    column-gap: 30px;
+}
+.about-card {
+    width: 255px;
+}
+.card-name {
+    max-width: 255px;
+    width: 100%;
+    color: var(--b16);
+    font-family: Barlow;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 28px;
+    text-transform: uppercase;
+    margin-top: 48px;
+    margin-bottom: 24px;
+}
+.card-text {
+    max-width: 255px;
+    width: 100%;
+    color: #7B8BAD;
+    font-family: Barlow;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+}
+/* site-about */
+.finish {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+    margin-bottom: 30px;
+}
+.span {
+    color: #7B8BAD;
+    font-family: Barlow;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+}
+.finish-text {
+    color: #7B8BAD;
+    font-family: Barlow;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+}
