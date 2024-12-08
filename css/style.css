@@ -1,0 +1,6 @@
+.d-flex {
+    align-items: center;
+}
+.img {
+    flex-direction: column;
+}
